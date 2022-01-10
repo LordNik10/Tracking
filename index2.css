@@ -1,0 +1,1395 @@
+@font-face 
+{
+    font-family: "Rubik";
+    src: local("Rubik"), url("./font/Rubik-VariableFont_wght.ttf") format("truetype");
+} 
+
+@media all and (max-width: 2000px) and (min-width: 1201px) 
+{
+    #first
+    {
+        display: flex;
+        gap: 5%;
+        width: 70%;
+        margin-left: 15%;
+        position: absolute;
+        top: 25%;
+        justify-content: center;
+    }
+    #img1
+    {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        border: solid 3px #bdc1ff;
+        position: relative;
+        top: 30px;
+        left: 30px;
+        margin-bottom: 10%;
+        
+    }
+    #tp
+    {
+        display: flex;
+        gap: 4%;
+    }
+    #bt
+    {
+        display: flex;
+        gap: 4%;
+        margin-top: 4%;
+    }
+    #second
+    {
+        display: inline-block;
+    }
+    #main
+    { 
+        background-color: hsl(232, 46%, 20%);
+        width: 250px;
+        height: 430px;
+        border-radius: 5%;
+    }
+    .clsname
+    {
+        display: block;
+    }
+    #main2
+    {
+        background-color: hsl(246, 80%, 60%);
+        width: 250px;
+        height: 300px;
+        border-radius: 5%;
+        
+    }
+    body
+    {
+        background-color: hsl(226, 43%, 10%);
+        color: hsl(236, 100%, 87%) ;
+    }
+    .cls1
+    {
+        display: block;
+        font-family: Rubik;
+        margin-left: 10%;
+    }
+    .cls2
+    {
+        display: block;
+        font-family: Rubik;
+        margin-left: 10%;
+        margin-top: 7%;
+        color: hsl(236, 100%, 87%);
+    }
+    .cls2:hover
+    {
+        color: white;
+    }
+    #p1
+    {
+        color: hsl(236, 100%, 87%);
+        font-size: 13px;
+        margin-top: 10%;
+    }
+    #p2
+    {
+        color: #fff;
+        font-size: 30px;
+        font-weight: 300;
+        margin-top: -10%;
+    }
+
+    /*work*/
+    #work 
+    {
+        width: 210px;
+        background-color: hsl(15, 100%, 70%);
+        border-radius: 5%;
+        height: 200px;
+    }
+    #work2
+    {
+        background-color: hsl(232, 46%, 20%);
+        width: 210px;
+        border-radius: 5%;
+        height: 150px;
+        position: relative;
+        top: 50px;
+    }
+    #work2:hover
+    {
+        background-color: hsl(235, 45%, 61%);
+    }
+    #imgw
+    {
+        position: relative;
+        float: right;
+    }
+    #work h2
+    {
+        color: #fff;
+        font-size: 16px;
+        font-family: Rubik;
+        margin-left: 7%;
+        position: absolute;
+    }
+    #prw
+    {
+        position: relative; 
+        left: 7%;
+    }
+    
+    #img3w
+    {
+        position: relative;
+        left: 180px;
+    }
+    #work h1
+    {
+        color: #fff;
+        font-size: 40px;
+        font-family: Rubik;
+        margin-left: 7%;
+        font-weight: 300;
+    }
+    .pr
+    {
+        font-size: 12px;
+        color: hsl(236, 100%, 87%);
+    }
+
+    /*play*/
+    #play
+    {
+        width: 210px;
+        background-color: hsl(195, 74%, 62%);
+        border-radius: 5%;
+        height: 200px;
+    }
+    #play2
+    {
+        background-color: hsl(232, 46%, 20%);
+        width: 210px;
+        border-radius: 5%;
+        height: 150px;
+        position: relative;
+        top: 50px;
+    }
+    #play2:hover
+    {
+        background-color: hsl(235, 45%, 61%);
+    }
+    #imgp
+    {
+        float: right;
+    }
+    #img3p
+    {
+        position: relative;
+        top: 30px;
+        left: 180px;
+    }
+    #play h2
+    {
+        color: #fff;
+        font-size: 16px;
+        font-family: Rubik;
+        margin-left: 7%;
+        position: absolute;
+    }
+    #play h1
+    {
+        color: #fff;
+        font-size: 40px;
+        font-family: Rubik;
+        margin-left: 7%;
+        font-weight: 300;
+    }
+    #prp
+    {
+        position: relative;
+        left: 7%;
+    }
+
+    /*study*/
+    #study
+    {
+        width: 210px;
+        background-color: hsl(348, 100%, 68%);
+        border-radius: 5%;
+        height: 200px;
+    }
+    #study2
+    {
+        background-color: hsl(232, 46%, 20%);
+        width: 210px;
+        border-radius: 5%;
+        position: relative;
+        top: 50px;
+        height: 150px;
+        
+    }
+    #study2:hover
+    {
+        background-color: hsl(235, 45%, 61%);
+    }
+    #imgs
+    {
+        float: right;
+    }
+    #img3s
+    {
+        position: relative;
+        left: 180px;
+    }
+    #study h2
+    {
+        color: #fff;
+        font-size: 16px;
+        font-family: Rubik;
+        margin-left: 7%;
+        position: absolute;
+    }
+    #study h1
+    {
+        color: #fff;
+        font-size: 40px;
+        font-family: Rubik;
+        margin-left: 7%;
+        font-weight: 300;
+    }
+    #prst
+    {
+        position: relative;
+        left: 7%;
+    }
+
+    /*Exercise*/
+    #exercise
+    {
+        width: 210px;
+        background-color: hsl(145, 58%, 55%);
+        border-radius: 5%;
+        height: 200px;
+    }
+    #exercise2
+    {
+        background-color: hsl(232, 46%, 20%);
+        width: 210px;
+        border-radius: 5%;
+        position: relative;
+        top: 50px;
+        height: 150px;
+        
+    }
+    #exercise2:hover
+    {
+        background-color: hsl(235, 45%, 61%);
+    }
+    #imge
+    {
+        position: relative;
+        float: right;
+    }
+    #img3e
+    {
+        position: relative;
+        left: 180px;
+    }
+    #exercise h2
+    {
+        color: #fff;
+        font-size: 16px;
+        font-family: Rubik;
+        position: absolute;
+        margin-left: 7%;
+    }
+    #exercise h1
+    {
+        color: #fff;
+        font-size: 40px;
+        font-family: Rubik;
+        margin-left: 7%;
+        font-weight: 300;
+    }
+    #pre
+    {
+        position: relative;
+        left: 7%;
+    }
+    /*Social*/
+    #social
+    {
+        width: 210px;
+        background-color: hsl(264, 64%, 52%);
+        border-radius: 5%;
+        height: 200px;
+        position: relative;
+
+    }
+    #social2
+    {
+        background-color: hsl(232, 46%, 20%);
+        width: 210px;
+        border-radius: 5%;
+        position: relative;
+        height: 150px;
+        top:50px
+        
+    }
+    #social2:hover
+    {
+        background-color: hsl(235, 45%, 61%);
+    }
+    #imgso
+    {
+        float: right;
+    }
+    #img3so
+    {
+        position: relative;
+        left: 180px;
+    }
+    #social h2
+    {
+        color: #fff;
+        font-size: 16px;
+        font-family: Rubik;
+        margin-left: 7%;
+        position: absolute;
+    }
+    #social h1
+    {
+        color: #fff;
+        font-size: 40px;
+        font-family: Rubik;
+        position: relative;
+        top: 3px;
+        margin-left: 7%;
+        font-weight: 300;
+    }
+    #prso
+    {
+        position: relative;
+        left: 7%;
+    }
+
+    /*Selfcare*/
+    #selfcare
+    {
+        width: 210px;
+        background-color: hsl(43, 84%, 65%);
+        border-radius: 5%;
+        height: 200px;
+        position: relative;
+
+    }
+    #selfcare2
+    {
+        background-color: hsl(232, 46%, 20%);
+        width: 210px;
+        border-radius: 5%;
+        position: relative;
+        height: 150px;
+        top: 50px;
+    }
+    #selfcare2:hover
+    {
+        background-color: hsl(235, 45%, 61%);
+    }
+    #imgsc
+    {
+        float: right;
+
+    }
+    #img3sc
+    {
+        position: relative;
+        left: 180px;
+    }
+    #prsc
+    {
+        position: relative;
+        top: 4px;
+        left: 7%;
+    }
+    #selfcare h2
+    {
+        color: #fff;
+        font-size: 16px;
+        font-family: Rubik;
+        margin-left: 7%;
+        position: absolute;
+        top: 15px;
+    }
+    #selfcare h1
+    {
+        color: #fff;
+        font-size: 40px;
+        font-family: Rubik;
+        position: relative;
+        top: 38px;
+        margin-left: 7%;
+        font-weight: 300;
+    }
+
+    /*attribution*/
+    .attribution a
+    {
+        color: hsl(228, 45%, 44%);
+    }
+    .attribution
+    {
+        text-align: center;
+        font-size: 11px;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+     
+    }
+    li
+    {
+        cursor: pointer;
+    }
+}
+
+@media all and (max-width: 1200px) and (min-width: 901px) 
+{
+    #first
+    {
+        display: flex;
+        gap: 5%;
+        width: 90%;
+        margin-left: 3%;
+        position: absolute;
+        top: 25%;
+        justify-content: center;
+    }
+    #img1
+    {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        border: solid 3px #bdc1ff;
+        position: relative;
+        top: 30px;
+        left: 30px;
+        margin-bottom: 10%;
+        
+    }
+    #tp
+    {
+        display: flex;
+        gap: 4%;
+    }
+    #bt
+    {
+        display: flex;
+        gap: 4%;
+        margin-top: 15%;
+    }
+    #second
+    {
+        display: inline-block;
+    }
+    #main
+    { 
+        background-color: hsl(232, 46%, 20%);
+        width: 225px;
+        height: 410px;
+        border-radius: 5%;
+    }
+    .clsname
+    {
+        display: block;
+    }
+    #main2
+    {
+        background-color: hsl(246, 80%, 60%);
+        width: 225px;
+        height: 300px;
+        border-radius: 5%;
+        
+    }
+    body
+    {
+        background-color: hsl(226, 43%, 10%);
+        color: hsl(236, 100%, 87%) ;
+    }
+    .cls1
+    {
+        display: block;
+        font-family: Rubik;
+        margin-left: 10%;
+    }
+    .cls2
+    {
+        display: block;
+        font-family: Rubik;
+        margin-left: 10%;
+        margin-top: 7%;
+        color: hsl(236, 100%, 87%);
+    }
+    .cls2:hover
+    {
+        color: white;
+    }
+    #p1
+    {
+        color: hsl(236, 100%, 87%);
+        font-size: 13px;
+        margin-top: 10%;
+    }
+    #p2
+    {
+        color: #fff;
+        font-size: 30px;
+        font-weight: 300;
+        margin-top: -10%;
+    }
+
+    /*work*/
+    #work 
+    {
+        width: 180px;
+        background-color: hsl(15, 100%, 70%);
+        border-radius: 5%;
+        height: 150px;
+    }
+    #work2
+    {
+        background-color: hsl(232, 46%, 20%);
+        width: 180px;
+        border-radius: 5%;
+        height: 115px;
+        position: relative;
+        top: 50px;
+    }
+    #work2:hover
+    {
+        background-color: hsl(235, 45%, 61%);
+    }
+    #imgw
+    {
+        position: relative;
+        float: right;
+    }
+    #work h2
+    {
+        color: #fff;
+        font-size: 16px;
+        font-family: Rubik;
+        margin-left: 7%;
+        position: absolute;
+    }
+    #prw
+    {
+        position: relative; 
+        left: 7%;
+        margin-top: -15%;
+    }
+    
+    #img3w
+    {
+        position: relative;
+        left: 150px;
+    }
+    #work h1
+    {
+        color: #fff;
+        font-size: 40px;
+        font-family: Rubik;
+        margin-left: 7%;
+        font-weight: 300;
+    }
+    .pr
+    {
+        font-size: 12px;
+        color: hsl(236, 100%, 87%);
+    }
+
+    /*play*/
+    #play
+    {
+        width: 180px;
+        background-color: hsl(195, 74%, 62%);
+        border-radius: 5%;
+        height: 150px;
+    }
+    #play2
+    {
+        background-color: hsl(232, 46%, 20%);
+        width: 180px;
+        border-radius: 5%;
+        height: 115px;
+        position: relative;
+        top: 50px;
+    }
+    #play2:hover
+    {
+        background-color: hsl(235, 45%, 61%);
+    }
+    #imgp
+    {
+        float: right;
+    }
+    #img3p
+    {
+        position: relative;
+        left: 150px;
+    }
+    #play h2
+    {
+        color: #fff;
+        font-size: 16px;
+        font-family: Rubik;
+        margin-left: 7%;
+        position: absolute;
+    }
+    #play h1
+    {
+        color: #fff;
+        font-size: 40px;
+        font-family: Rubik;
+        margin-left: 7%;
+        font-weight: 300;
+    }
+    #prp
+    {
+        position: relative;
+        left: 7%;
+        margin-top: -15%;
+    }
+
+    /*study*/
+    #study
+    {
+        width: 180px;
+        background-color: hsl(348, 100%, 68%);
+        border-radius: 5%;
+        height: 150px;
+    }
+    #study2
+    {
+        background-color: hsl(232, 46%, 20%);
+        width: 180px;
+        border-radius: 5%;
+        position: relative;
+        top: 50px;
+        height: 115px;
+        
+    }
+    #study2:hover
+    {
+        background-color: hsl(235, 45%, 61%);
+    }
+    #imgs
+    {
+        float: right;
+    }
+    #img3s
+    {
+        position: relative;
+        left: 150px;
+    }
+    #study h2
+    {
+        color: #fff;
+        font-size: 16px;
+        font-family: Rubik;
+        margin-left: 7%;
+        position: absolute;
+    }
+    #study h1
+    {
+        color: #fff;
+        font-size: 40px;
+        font-family: Rubik;
+        margin-left: 7%;
+        font-weight: 300;
+    }
+    #prst
+    {
+        position: relative;
+        left: 7%;
+        margin-top: -15%;
+    }
+
+    /*Exercise*/
+    #exercise
+    {
+        width: 180px;
+        background-color: hsl(145, 58%, 55%);
+        border-radius: 5%;
+        height: 150px;
+    }
+    #exercise2
+    {
+        background-color: hsl(232, 46%, 20%);
+        width: 180px;
+        border-radius: 5%;
+        position: relative;
+        top: 50px;
+        height: 115px;
+        
+    }
+    #exercise2:hover
+    {
+        background-color: hsl(235, 45%, 61%);
+    }
+    #imge
+    {
+        position: relative;
+        float: right;
+    }
+    #img3e
+    {
+        position: relative;
+        left: 150px;
+    }
+    #exercise h2
+    {
+        color: #fff;
+        font-size: 16px;
+        font-family: Rubik;
+        position: absolute;
+        margin-left: 7%;
+    }
+    #exercise h1
+    {
+        color: #fff;
+        font-size: 40px;
+        font-family: Rubik;
+        margin-left: 7%;
+        font-weight: 300;
+    }
+    #pre
+    {
+        position: relative;
+        left: 7%;
+        margin-top: -15%;
+    }
+    /*Social*/
+    #social
+    {
+        width: 180px;
+        background-color: hsl(264, 64%, 52%);
+        border-radius: 5%;
+        height: 150px;
+        position: relative;
+
+    }
+    #social2
+    {
+        background-color: hsl(232, 46%, 20%);
+        width: 180px;
+        border-radius: 5%;
+        position: relative;
+        height: 115px;
+        top:50px
+        
+    }
+    #social2:hover
+    {
+        background-color: hsl(235, 45%, 61%);
+    }
+    #imgso
+    {
+        float: right;
+    }
+    #img3so
+    {
+        position: relative;
+        left: 150px;
+    }
+    #social h2
+    {
+        color: #fff;
+        font-size: 16px;
+        font-family: Rubik;
+        margin-left: 7%;
+        position: absolute;
+    }
+    #social h1
+    {
+        color: #fff;
+        font-size: 40px;
+        font-family: Rubik;
+        position: relative;
+        top: 3px;
+        margin-left: 7%;
+        font-weight: 300;
+    }
+    #prso
+    {
+        position: relative;
+        left: 7%;
+        margin-top: -15%;
+    }
+
+    /*Selfcare*/
+    #selfcare
+    {
+        width: 180px;
+        background-color: hsl(43, 84%, 65%);
+        border-radius: 5%;
+        height: 150px;
+        position: relative;
+
+    }
+    #selfcare2
+    {
+        background-color: hsl(232, 46%, 20%);
+        width: 180px;
+        border-radius: 5%;
+        position: relative;
+        height: 115px;
+        top: 50px;
+    }
+    #selfcare2:hover
+    {
+        background-color: hsl(235, 45%, 61%);
+    }
+    #imgsc
+    {
+        float: right;
+
+    }
+    #img3sc
+    {
+        position: relative;
+        left: 150px;
+    }
+    #prsc
+    {
+        position: relative;
+        margin-top: -15%;
+        left: 7%;
+    }
+    #selfcare h2
+    {
+        color: #fff;
+        font-size: 16px;
+        font-family: Rubik;
+        margin-left: 7%;
+        position: absolute;
+    }
+    #selfcare h1
+    {
+        color: #fff;
+        font-size: 40px;
+        font-family: Rubik;
+        position: relative;
+        margin-left: 7%;
+        font-weight: 300;
+    }
+
+    /*attribution*/
+    .attribution a
+    {
+        color: hsl(228, 45%, 44%);
+    }
+    .attribution
+    {
+        text-align: center;
+        font-size: 11px;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        
+    }
+    li
+    {
+        cursor: pointer;
+    }
+}
+
+/*mobile*/
+@media (max-width: 900px)
+{
+    #img1
+    {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        border: solid 3px #bdc1ff;
+        position: relative;
+        top: 30px;
+        left: 30px;
+        margin-bottom: 10%;
+        
+    }
+    #main
+    {
+        position: relative;
+        left: 50px;
+        top: 0px;
+        background-color: hsl(232, 46%, 20%);
+        width: 310px;
+        height: 210px;
+        border-radius: 5%;
+    }
+    #main2
+    {
+        background-color: hsl(246, 80%, 60%);
+        width: 310px;
+        height: 140px;
+        border-radius: 5%;
+        
+    }
+    #first
+    {
+        display: grid;
+        justify-content: center;
+    }
+    body
+    {
+        background-color: hsl(226, 43%, 10%);
+        color: hsl(236, 100%, 87%) ;
+        overflow-x: hidden;
+    }
+    .cls1
+    {
+        display: inline-block;
+        font-family: Rubik;
+        margin-left: 15%;
+        position: relative;
+        top: -30px;
+    }
+    .cls2
+    {
+        display: inline-block;
+        font-family: Rubik;
+        margin-left: 10%;
+        margin-top: 7%;
+        color: hsl(236, 100%, 87%);
+    }
+    #p1
+    {
+        color: hsl(236, 100%, 87%);
+        font-size: 13px;
+        position: relative;
+        top: 20px;
+    }
+    #p2
+    {
+        color: #fff;
+        font-size: 18px;
+        font-weight: 300;
+        margin-top: -10%;
+    }
+
+    /*work*/
+    #work 
+    {
+        width: 310px;
+        background-color: hsl(15, 100%, 70%);
+        border-radius: 5%;
+        height: 169px;
+        margin-left: 50px;
+        margin-right: 40%;
+        margin-top: 10%;
+    }
+    #work2
+    {
+        background-color: hsl(232, 46%, 20%);
+        width: 310px;
+        border-radius: 5%;
+        position: relative;
+        top: 50px;
+        height: 125px;
+        
+    }
+    #imgw
+    {
+        position: relative;
+        float: right;
+    }
+    #work h2
+    {
+        color: #fff;
+        font-size: 16px;
+        font-family: Rubik;
+        position: relative;
+        top: 10%;
+        margin-left: 7%;
+        
+    }
+    #img3w
+    {
+        position: absolute;
+        top: 26px;
+        left: 276px;
+    }
+    #work h1
+    {
+        color: #fff;
+        font-size: 30px;
+        font-family: Rubik;
+        margin-left: 7%;
+        position: relative;
+        top: -5%;
+        font-weight: 300;
+    }
+    .pr
+    {
+        font-size: 12px;
+        position: relative;
+        left: 170px;
+        top: -28px;
+        color: hsl(236, 100%, 87%);
+    }
+    #prw
+    {
+        position: relative;
+        top: -48px;
+        left: 207px;
+    }
+
+    /*play*/
+    #play
+    {
+        width: 310px;
+        background-color: hsl(195, 74%, 62%);
+        border-radius: 5%;
+        height: 169px;
+        margin-left: 50px;
+        margin-top: 35px;
+    }
+    #play2
+    {
+        background-color: hsl(232, 46%, 20%);
+        width: 310px;
+        border-radius: 5%;
+        position: relative;
+        top: 45px;
+        height: 125px;
+        
+    }
+    #imgp
+    {
+        position: relative;
+        top: 0px;
+        float: right;
+    }
+    #img3p
+    {
+        position: absolute;
+        top: 26px;
+        left: 276px;
+    }
+    #play h2
+    {
+        color: #fff;
+        font-size: 16px;
+        position: relative;
+        top: 13%;
+        font-family: Rubik;
+        margin-left: 7%;
+    }
+    #prp
+    {
+        position: relative;
+        top: -40px;
+        left: 207px;
+    }
+    #play h1
+    {
+        color: #fff;
+        font-size: 30px;
+        font-family: Rubik;
+        margin-left: 7%;
+        top: -2px;
+        position: relative;
+        font-weight: 300;
+    }
+
+    /*study*/
+    #study
+    {
+        width: 310px;
+        background-color: hsl(348, 100%, 68%);
+        border-radius: 5%;
+        height: 169px;
+        margin-left: 50px;
+        margin-top: 33px;
+    }
+    #study2
+    {
+        background-color: hsl(232, 46%, 20%);
+        width: 310px;
+        border-radius: 5%;
+        position: relative;
+        top: 45px;
+        height: 125px;
+        
+    }
+    #imgs
+    {
+        position: relative;
+        top: 0px;
+        float: right;
+    }
+    #img3s
+    {
+        position: absolute;
+        top: 30px;
+        left: 276px;
+    }
+    #prst
+    {
+        position: relative;
+        top: -31px;
+        left: 207px;
+    }
+    #study h2
+    {
+        color: #fff;
+        font-size: 16px;
+        font-family: Rubik;
+        margin-left: 7%;
+        top: 13%;
+        position: relative;
+    }
+    h1
+    {
+        color: #fff;
+        font-size: 30px;
+        font-family: Rubik;
+        margin-left: 7%;
+        margin-top: 10%;
+        font-weight: 300;
+    }
+    #study h1
+    {
+        color: #fff;
+        font-size: 30px;
+        font-family: Rubik;
+        margin-left: 7%;
+        position: relative;
+        top: 8px;
+        font-weight: 300;
+    }
+
+    /*Exercise*/
+    #exercise
+    {
+        width: 310px;
+        background-color: hsl(145, 58%, 55%);
+        border-radius: 5%;
+        height: 169px;
+        margin-left: 50px;
+        margin-right: 20%;
+        margin-top: 28px;
+    }
+    #exercise2
+    {
+        background-color: hsl(232, 46%, 20%);
+        width: 310px;
+        border-radius: 5%;
+        position: relative;
+        top: 45px;
+        height: 125px;
+        
+    }
+    #imge
+    {
+        position: relative;
+        float: right;
+    }
+    #img3e
+    {
+        position: absolute;
+        top: 30px;
+        left: 276px;
+    }
+    #exercise h2
+    {
+        color: #fff;
+        font-size: 16px;
+        font-family: Rubik;
+        margin-left: 7%;
+        top: 13%;
+        position: relative;
+    }
+    #exercise h1
+    {
+        color: #fff;
+        font-size: 30px;
+        font-family: Rubik;
+        margin-left: 7%;
+        margin-top: 10%;
+        font-weight: 300;
+    }
+    #pre
+    {
+        position: relative;
+        top: -38px;
+        left: 207px;
+    }
+    /*Social*/
+    #social
+    {
+        width: 310px;
+        background-color: hsl(264, 64%, 52%);
+        border-radius: 5%;
+        height: 169px;
+        margin-left: 50px;
+        margin-right: 20%;
+        position: relative;
+        top: 10px;
+    }
+    #social2
+    {
+        background-color: hsl(232, 46%, 20%);
+        width: 310px;
+        border-radius: 5%;
+        position: relative;
+        top: 45px;
+        height: 125px;
+        
+    }
+    #imgso
+    {
+        position: relative;
+        float: right;
+        top: -5px;
+    }
+    #img3so
+    {
+        position: absolute;
+        top: 30px;
+        left: 276px;
+    }
+    #prso
+    {
+        position: relative;
+        top: -36px;
+        left: 207px;
+    }
+    #social h2
+    {
+        color: #fff;
+        font-size: 16px;
+        font-family: Rubik;
+        margin-left: 7%;
+        position: relative;
+        top: 13px;
+    }
+    #social h1
+    {
+        color: #fff;
+        font-size: 30px;
+        font-family: Rubik;
+        margin-left: 7%;
+        margin-top: 10%;
+        font-weight: 300;
+    }
+
+    /*Selfcare*/
+    #selfcare
+    {
+        width: 310px;
+        background-color: hsl(43, 84%, 65%);
+        border-radius: 5%;
+        height: 169px;
+        margin-left: 50px;
+        margin-right: 20%;
+        position: relative;
+        top: 25px;
+    }
+    #selfcare2
+    {
+        background-color: hsl(232, 46%, 20%);
+        width: 310px;
+        border-radius: 5%;
+        position: relative;
+        top: 45px;
+        height: 125px;
+        
+    }
+    #imgsc
+    {
+        position: relative;
+        float: right;
+        top: 0px;
+    }
+    #img3sc
+    {
+        position: absolute;
+        top: 30px;
+        left: 276px;
+    }
+    #prsc
+    {
+        position: relative;
+        top: -37px;
+        left: 207px;
+    }
+    #selfcare h2
+    {
+        color: #fff;
+        font-size: 16px;
+        font-family: Rubik;
+        position: relative;
+        margin-left: 7%;
+        top: 13px;
+    }
+    #selfcare h1
+    {
+        color: #fff;
+        font-size: 30px;
+        font-family: Rubik;
+        margin-left: 7%;
+        position: relative;
+        top: 2px;
+        font-weight: 300;
+    }
+
+    /*attribution*/
+    .attribution a
+    {
+        color: hsl(228, 45%, 44%);
+    }
+    .attribution
+    {
+        text-align: center;
+        font-size: 11px;
+        width: 90%;
+        margin-top: 10%;
+        margin-left: 5%;
+    }
+    li
+    {
+        cursor: pointer;
+    }
+
+    .clsname
+    {
+        display: inline;
+    }
+    #work2:hover
+    {
+        background-color: hsl(236, 100%, 87%);
+    }
+    #play2:hover
+    {
+        background-color: hsl(236, 100%, 87%);
+    }
+    #study2:hover
+    {
+        background-color: hsl(236, 100%, 87%);
+    }
+    #exercise2:hover
+    {
+        background-color: hsl(236, 100%, 87%);
+    }
+    #social2:hover
+    {
+        background-color: hsl(236, 100%, 87%);
+    }
+    #selfcare2:hover
+    {
+        background-color: hsl(236, 100%, 87%);
+    }
+}
